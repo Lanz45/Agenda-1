@@ -10,7 +10,6 @@ function Computer(props) {
         <li><strong>Type :</strong> {props.description}</li>
         <li><strong>Stock :</strong> {props.quantity}</li>
         <li><strong>Price :</strong> ${props.price.toFixed(2)}</li>
-
         <li style={{ color: props.isDeliver ? "green" : "red" }}>
             <strong>Delivering :</strong> {props.isDeliver ? "Yes" : "No"}</li>
       </ul>
