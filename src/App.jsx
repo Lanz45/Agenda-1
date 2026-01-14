@@ -1,4 +1,4 @@
-import Computer from "./Laptop.jsx";
+import Computer from "./UseProps.jsx";
 
 function App() {
   return (
