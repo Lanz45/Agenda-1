@@ -1,3 +1,6 @@
+/* ./src/index.css */
+@import "tailwindcss";
+
 .laptop {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem; 
