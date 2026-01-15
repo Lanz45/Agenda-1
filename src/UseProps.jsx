@@ -21,9 +21,9 @@ function Computer(props) {
           <span className="font-semibold text-blue-900">Stock:</span> 
           <span>{props.quantity}</span>
         </li>
-        <li className="flex justify-between border-b border-blue-200 pb-2">
-          <span className="font-semibold text-blue-900">Price:</span> 
-          <span className="font-bold text-lg">${props.price.toFixed(2)}</span>
+        <li className='flex justify-between border-b border-blue-200 pb-2'>
+          <strong className='font-semibold text-blue-900'>Price :</strong> 
+          ${props.price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
         </li>
         <li className="flex justify-between pt-2 items-center">
           <span className="font-semibold text-blue-900">Status:</span>
